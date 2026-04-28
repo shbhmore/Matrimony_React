@@ -1,11 +1,11 @@
 import React from 'react';
 
 // Import the Provider you created in api-util
-import { AuthProvider, useAuth } from './api-util/authContext';
+import { AuthProvider, useAuth } from './api-util/AuthContext';
 import Login from './api-util/login';
 import Signup from './api-util/signup';
 import MatchesPage from './pages/matchesPage';
-import ProfileDetails from './pages/profileDetails';
+import ProfileDetails from './pages/ProfileDetails';
 import NotFound from './pages/notFound';
 import HomePage from './pages/homePage';
 import { Navigate, Route, Router, Routes } from 'react-router-dom';
