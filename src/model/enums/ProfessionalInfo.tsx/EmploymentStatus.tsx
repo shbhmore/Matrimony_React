@@ -1,0 +1,6 @@
+export enum EmploymentStatus {
+  FULL_TIME = 'FULL_TIME',
+  CONTRACT = 'CONTRACT',
+  UNEMPLOYED = 'UNEMPLOYED',
+  FREELANCE = 'FREELANCE'
+}
