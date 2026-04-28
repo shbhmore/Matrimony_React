@@ -1,16 +1,16 @@
 import React from 'react';
 
 // Import the Provider you created in api-util
-import { AuthProvider, useAuth } from './api-util/AuthContext';
+import { AuthProvider, useAuth } from './api-util/authContext';
 import Login from './api-util/login';
 import Signup from './api-util/signup';
-import MatchesPage from './pages/MatchesPage';
-import ProfileDetails from './pages/ProfileDetails';
-import NotFound from './pages/NotFound';
-import HomePage from './pages/HomePage';
+import MatchesPage from './pages/matchesPage';
+import ProfileDetails from './pages/profileDetails';
+import NotFound from './pages/notFound';
+import HomePage from './pages/homePage';
 import { Navigate, Route, Router, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import BiodataModal from './pages/BiodataModal';
+import Header from './components/header';
+import BiodataModal from './pages/biodataModal';
 
 function App() {
   const ProtectedRoute = ({ children }) => {
