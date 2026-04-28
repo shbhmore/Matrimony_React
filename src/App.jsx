@@ -3,7 +3,7 @@ import React from 'react';
 // Import the Provider you created in api-util
 import { AuthProvider, useAuth } from './api-util/AuthContext';
 import Login from './api-util/login';
-import Signup from './api-util/Signup';
+import Signup from './api-util/signup';
 import MatchesPage from './pages/MatchesPage';
 import ProfileDetails from './pages/ProfileDetails';
 import NotFound from './pages/NotFound';
