@@ -9,7 +9,7 @@ import ProfileDetails from './pages/ProfileDetails';
 import NotFound from './pages/NotFound';
 import HomePage from './pages/HomePage';
 import { Navigate, Route, Router, Routes } from 'react-router-dom';
-import Header from './components/header';
+import Header from './components/Header';
 import BiodataModal from './pages/biodataModal';
 
 function App() {
